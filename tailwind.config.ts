@@ -4,7 +4,14 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				'db-blue': {
+					light: '#a0ceff',
+					dark: '#5193c8'
+				}
+			}
+		}
 	},
 
 	plugins: []
